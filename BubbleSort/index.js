@@ -14,3 +14,11 @@ function bubbleSort(arr) {
 // Example usage:
 let numbers = [5, 6, 1, 3, 4, 2];
 console.log(bubbleSort(numbers)); 
+function steps(n) {
+    for (let i = 1; i <= n; i++) {
+        console.log('#'.repeat(i));
+    }
+}
+
+// Example usage:
+steps(3);
